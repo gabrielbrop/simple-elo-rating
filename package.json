@@ -1,0 +1,22 @@
+{
+  "name": "simple-elo-rating",
+  "version": "1.0.0",
+  "description": "Just a really simple Elo module",
+  "main": "./dist/main.js",
+  "homepage": "https://github.com/gabrielbrop/simple-elo-rating#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && uglifyjs --compress toplevel --mangle -o ./dist/main.js ./dist/main.js"
+  },
+  "author": "gabrielbrop",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^16.3.3",
+    "typescript": "^4.3.5",
+    "uglify-js": "^3.13.10"
+  }
+}
