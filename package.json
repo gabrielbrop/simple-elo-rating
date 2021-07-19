@@ -4,6 +4,9 @@
   "description": "Just a really simple Elo module",
   "main": "./dist/main.js",
   "homepage": "https://github.com/gabrielbrop/simple-elo-rating#readme",
+  "files": [
+    "dist"
+  ],
   "publishConfig": {
     "access": "public"
   },
